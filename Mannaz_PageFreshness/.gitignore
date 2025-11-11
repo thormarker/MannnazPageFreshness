@@ -1,0 +1,44 @@
+# Configuration files with personal data
+config.py
+
+# Data folders
+data/
+reports/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Excel files (except examples)
+*.xlsx
+!example_*.xlsx
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Test output
+TEST_*.xlsx
+test_output/
